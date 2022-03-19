@@ -7,4 +7,4 @@ services:
   - docker build -t pravallikavasi/docker-react -f Dockerfile.dev .
 
 script:
-  - docker run -e CI=true pravallikavasi/docker-react npm run test -- --coverage
+  - docker run -e CI=true pravallikavasi/docker-react npm run test
